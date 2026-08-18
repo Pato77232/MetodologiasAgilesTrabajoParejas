@@ -1,0 +1,308 @@
+\documentclass[12pt,a4paper]{article}
+
+% ─── Paquetes Básicos y Estructura ──────────────────────────────────────────
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-tabla]{babel}
+
+\usepackage[top=3.5cm, bottom=2.5cm, left=3cm, right=2.5cm, headheight=2.5cm, headsep=0.4cm]{geometry} 
+
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{multirow}
+\usepackage{parskip}
+\usepackage{tcolorbox}
+\usepackage{wasysym}      
+\usepackage{pifont}       
+
+% Elimina los recuadros de color de las URLs de forma definitiva
+\usepackage[hidelinks]{hyperref}
+
+% ─── Configuración de Colores Estilo UTA ────────────────────────────────────
+\definecolor{utablue}{RGB}{0,51,102}
+\definecolor{resultbox}{RGB}{240,248,255}
+
+% ─── Configuración de Párrafos del Documento ────────────────────────────────
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+
+% ─── Encabezado Oficial ──────────────────────────────────────────────────────
+\pagestyle{fancy}
+\fancyhf{} 
+
+\fancyhead[C]{%
+	\begin{minipage}[c]{0.13\textwidth}
+		\centering
+		\includegraphics[width=1.6cm]{logo-uta.png}
+	\end{minipage}%
+	\begin{minipage}[c]{0.74\textwidth}
+		\centering
+		\fontsize{11}{13}\selectfont\bfseries UNIVERSIDAD TÉCNICA DE AMBATO\\[3pt]
+		\fontsize{9}{11}\selectfont\bfseries FACULTAD DE INGENIERÍA EN SISTEMAS, ELECTRÓNICA E INDUSTRIAL\\[2pt]
+		\fontsize{9}{11}\selectfont\bfseries CARRERA DE SOFTWARE\\[2pt]
+		\fontsize{9}{11}\selectfont\bfseries CICLO ACADÉMICO: ENERO 2026 -- JULIO 2026
+	\end{minipage}%
+	\begin{minipage}[c]{0.13\textwidth}
+		\centering
+		\includegraphics[width=1.6cm]{logo-fisei.png}
+	\end{minipage}\\[-2pt]
+}
+
+% Desactivación total de la numeración de páginas
+\fancyfoot{} 
+\renewcommand{\headrulewidth}{1.2pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\makeatletter
+\let\ps@plain\ps@empty
+\makeatother
+\pagestyle{fancy}
+
+% ─── Formato de Secciones ───────────────────────────────────────────────────
+\titleformat{\section}[block]
+{\normalfont\bfseries\large}
+{\Roman{section}.}{0.5em}{}
+
+\titleformat{\subsection}[block]
+{\normalfont\bfseries\normalsize}
+{\thesubsection}{0.5em}{}
+
+% ─── Cajas de Resultados Matemáticos ────────────────────────────────────────
+\tcbuselibrary{skins}
+\newtcolorbox{resultbox}{
+	colback=resultbox,
+	colframe=utablue,
+	boxrule=0.8pt,
+	arc=3pt,
+	left=6pt, right=6pt, top=4pt, bottom=4pt
+}
+
+% ─── Interfaces de Casillas de Selección (Checkboxes) ───────────────────────
+\newcommand{\cbox}{\makebox[1.2em]{\(\square\)}}
+\newcommand{\cboxX}{\makebox[1.2em]{\(\boxtimes\)}}
+
+% ════════════════════════════════════════════════════════════════════════════
+\begin{document}
+	
+	\thispagestyle{fancy}
+	
+	\begin{center}
+		\vspace*{0.1cm}
+		{\large\bfseries\underline{INFORME DE GUÍA PRÁCTICA}}
+	\end{center}
+	
+	\vspace{0.3cm}
+	
+	\section{PORTADA}
+	
+	\begin{tabular}{@{}p{6.0cm} >{\raggedright\arraybackslash}p{9.0cm}@{}}
+		\textbf{Tema:}                              & APE3\_SW. LEYES DE DISTRIBUCIÓN DISCRETA Y CONTINUA \\[6pt]
+		\textbf{Unidad de Organización Curricular:} & BÁSICA \\[6pt]
+		\textbf{Nivel y Paralelo:}                  & Tercero -- ``B'' \\[6pt]
+		\textbf{Alumnos participantes:}             & Amaguaña Villacrés Shirley Dayana \\[6pt]
+		\textbf{Asignatura:}                        & Probabilidad y Estadística \\[6pt]
+		\textbf{Docente:}                           & Ing. Inti Becerra \\
+	\end{tabular}
+	
+	\vspace{0.4cm}
+	
+	% ────────────────────────────────────────────────────────────────────────────
+	\section{INFORME DE GUÍA PRÁCTICA}
+	
+	\subsection{Objetivos}
+	
+	\textbf{General:}\\
+	Aplicar apropiadamente distribuciones probabilísticas de carácter discreto y continuo y distribuciones de muestreo.
+	
+	\vspace{0.2cm}
+	\textbf{Específicos:}
+	\begin{itemize}[leftmargin=1.5cm, itemsep=2pt]
+		\item Identificar el tipo de distribución continua adecuada según las características del problema planteado.
+		\item Aplicar la función de densidad uniforme continua para calcular probabilidades en un intervalo dado.
+		\item Interpretar correctamente el resultado de la probabilidad obtenida en el contexto del problema real.
+	\end{itemize}
+	
+	\subsection{Modalidad}
+	Presencial
+	
+	\subsection{Tiempo de duración}
+	\textbf{Presenciales:} 4 \quad \textbf{No presenciales:} 0
+	
+	\subsection{Instrucciones}
+	Resolver los ejercicios siguientes que corresponden a la unidad 3 Distribuciones de Probabilidad. Ingrese al aula virtual de la asignatura en donde se halla el trabajo del tema tratado. Elabore el trabajo siguiendo las definiciones, conceptos y procesos aprendidos en clase.
+	
+	\begin{enumerate}[leftmargin=1.5cm, label=\textbf{\arabic{enumi}-}, itemsep=4pt]
+		\item Resolver de manera manual los ejercicios de distribuciones de probabilidad discretas y continuas.
+		\item Realizar la comprobación utilizando software estadístico (opcional).
+	\end{enumerate}
+	
+	\subsection{Listado de equipos, materiales y recursos}
+	
+	Listado de equipos y materiales generales empleados en la guía práctica:
+	\begin{itemize}[leftmargin=1.5cm]
+		\item Inteligencia artificial, TAC.
+		\item Computadora con acceso a internet.
+		\item Papel y lápiz para resolución manual.
+	\end{itemize}
+	
+	\vspace{0.2cm}
+	TAC (Tecnologías para el Aprendizaje y Conocimiento) empleadas en la guía práctica:
+	
+	\vspace{0.1cm}
+	\begin{tabular}{@{\hspace{1cm}}ll}
+		\cbox  & Plataformas educativas \\
+		\cbox  & Simuladores y laboratorios virtuales \\
+		\cbox  & Aplicaciones educativas \\
+		\cbox  & Recursos audiovisuales \\
+		\cbox  & Gamificación \\
+		\cboxX & Inteligencia Artificial \\
+	\end{tabular}
+	
+	\vspace{0.2cm}
+	Otros (Especifique): \underline{Overleaf}
+	
+	\subsection{Actividades por desarrollar}
+	
+	\begin{itemize}[leftmargin=1.5cm, itemsep=2pt]
+		\item Resolver los ejercicios propuestos sobre distribuciones discretas y continuas.
+		\item Considerar el orden, la presentación y la resolución.
+		\item Considerar la notación matemática.
+	\end{itemize}
+	
+	% ────────────────────────────────────────────────────────────────────────────
+	\newpage
+	\subsection{Desarrollo}
+	
+	Aquí se detalla el planteamiento matemático y la resolución manual paso a paso del ejercicio práctico de distribución uniforme continua asignado en la guía.
+	
+	% ────────────────────────────────────────────────────────────────────────────
+	\subsection{Resultados obtenidos}
+	
+	\textbf{Ejercicio 3.} Un reloj de manecillas se detuvo en un punto que no sabemos. Determina la probabilidad de que se haya detenido en los primeros 35 minutos luego de señalar la hora en punto.
+	
+	\vspace{0.4cm}
+	\textbf{Solución}
+	
+	\vspace{0.3cm}
+	\textbf{Paso 1: Variables (Distribución Uniforme Continua)}
+	
+	\[
+	a = 0
+	\]
+	\[
+	b = 60
+	\]
+	
+	\vspace{0.3cm}
+	\textbf{Paso 2: Función de densidad}
+	
+	\[
+	f(x) = \frac{1}{b - a}
+	\]
+	\[
+	f(x) = \frac{1}{60 - 0} = \frac{1}{60}
+	\]
+	
+	\vspace{0.3cm}
+	\textbf{Paso 3: Fórmula de probabilidad}
+	
+	\[
+	P(c \leq X \leq d) = \int_{c}^{d} f(x)\,dx = \frac{d - c}{b - a}
+	\]
+	
+	\vspace{0.3cm}
+	\textbf{Paso 4: Sustitución de valores} ($c = 0,\; d = 35$)
+	
+	\[
+	P(0 \leq X \leq 35) = \frac{35 - 0}{60 - 0}
+	\]
+	\[
+	P(0 \leq X \leq 35) = \frac{35}{60}
+	\]
+	
+	\vspace{0.3cm}
+	\textbf{Paso 5: Resultado final}
+	
+	\[
+	P(0 \leq X \leq 35) = \frac{7}{12}
+	\]
+	\[
+	P(0 \leq X \leq 35) \approx 0{,}5833
+	\]
+	\[
+	P(0 \leq X \leq 35) = 58{,}33\%
+	\]
+	
+	\vspace{0.4cm}
+	\textbf{Respuesta:} La probabilidad de que el reloj se haya detenido en los primeros 35 minutos es $\dfrac{7}{12} \approx 0{,}5833$, es decir, el $58{,}33\%$.
+	
+	% ────────────────────────────────────────────────────────────────────────────
+	\newpage
+	\subsection{Habilidades blandas empleadas en la práctica}
+	
+	\vspace{0.2cm}
+	\begin{tabular}{@{\hspace{0.5cm}}ll}
+		\cbox  & Liderazgo \\[4pt]
+		\cbox  & Trabajo en equipo \\[4pt]
+		\cbox  & Comunicación asertiva \\[4pt]
+		\cbox  & La empatía \\[4pt]
+		\cbox  & Pensamiento crítico \\[4pt]
+		\cbox  & Flexibilidad \\[4pt]
+		\cbox  & La resolución de conflictos \\[4pt]
+		\cbox  & Adaptabilidad \\[4pt]
+		\cboxX & Responsabilidad \\
+	\end{tabular}
+	
+	\vspace{0.5cm}
+	
+	\subsection{Conclusiones}
+	
+	\begin{enumerate}[leftmargin=1.5cm, label=\textbf{\arabic*.}, itemsep=6pt]
+		\item La distribución uniforme continua es el modelo adecuado cuando todos los valores dentro de un intervalo $[a, b]$ son igualmente probables, como ocurre con la posición aleatoria de las manecillas de un reloj detenido.
+		
+		\item El cálculo de probabilidades en la distribución uniforme continua se simplifica a una razón entre longitudes de intervalo, lo que facilita su aplicación sin necesidad de integración compleja cuando los límites son conocidos.
+		
+		\item El resultado obtenido, $P(0 \leq X \leq 35) \approx 58{,}33\%$, indica que existe una probabilidad mayor al 50\% de que el reloj se haya detenido en los primeros 35 minutos, lo cual es consistente con que dicho intervalo representa más de la mitad del rango total de 60 minutos.
+	\end{enumerate}
+	
+	\vspace{0.3cm}
+	
+	\subsection{Recomendaciones}
+	
+	\begin{enumerate}[leftmargin=1.5cm, label=\textbf{\arabic*.}, itemsep=6pt]
+		\item Antes de aplicar la distribución uniforme continua, verificar que el fenómeno estudiado cumpla la condición de equiprobabilidad en todo el intervalo, ya que de no cumplirse se debe utilizar otro modelo de distribución continua.
+		
+		\item El orden recomendado de cálculo es primero resolver a mano, luego comprobar con tablas y finalmente con software estadístico como Excel o Jamovi, nunca a la inversa, para fortalecer la comprensión conceptual del modelo.
+		
+		\item Expresar siempre el resultado final en las tres formas: fracción exacta, decimal aproximado y porcentaje, dado que cada representación aporta una perspectiva diferente sobre la magnitud de la probabilidad calculada.
+	\end{enumerate}
+	
+	\vspace{0.3cm}
+	
+	\subsection{Referencias bibliográficas}
+	
+	\begin{enumerate}[label={[\arabic*]}, leftmargin=1.5cm, itemsep=6pt]
+		\item S. Monroy Saldivar, \textit{Estadística y probabilidad}, 1ra ed. México: Grupo Editorial Éxodo, 2024. [En línea]. Disponible en:
+		\url{https://0x102qb9l-y-https-elibro-net.itmsp.museknowledge.com/es/lc/uta/titulos/275763}
+		\item L. García Barco y L. M. Montoya Conde, \textit{Estadística descriptiva y fundamentos de probabilidad con R, RStudio y Geogebra}, 1ra ed. Colombia: Universidad Colegio Mayor de Cundinamarca, 2025. [En línea]. Disponible en:
+		\url{https://0x102qb9l-y-https-elibro-net.itmsp.museknowledge.com/es/ereader/uta/291822}
+		\item A. M. Grisales Aguirre, \textit{Estadística descriptiva y probabilidad con aplicaciones en EXCEL y SPSS}, 1ra ed. Colombia: Ecoe Ediciones, 2019. [En línea]. Disponible en:
+		\url{https://0x102qb9l-y-https-elibro-net.itmsp.museknowledge.com/es/ereader/uta/125755}
+		\item S. Monroy Saldivar, \textit{Estadística y probabilidad}, 1 ed. México: Grupo Editorial Éxodo, 2024. [En línea]. Disponible en:
+		\url{https://elibro.net/es/ereader/uta/275763?page=161}
+	\end{enumerate}
+	
+	\vspace{0.3cm}
+	
+	\subsection{Anexos}
+	
+	No aplica.
+	
+\end{document}
