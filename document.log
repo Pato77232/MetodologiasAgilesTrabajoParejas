@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026 - Flatpak) (preloaded format=pdflatex 2026.3.7)  18 AUG 2026 17:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026 - Flatpak) (preloaded format=pdflatex 2026.3.7)  19 AUG 2026 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,31 +742,35 @@ Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.9.0'
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count345
 )
-No file document.aux.
+(./document.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+Package babel Info: 'spanish' activates 'spanish' shorthands.
+(babel)             Reported on input line 11.
+)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Info: Redefining \. on input line 92.
-LaTeX Info: Redefining \% on input line 92.
-Package babel Info: 'spanish' activates 'spanish' shorthands.
-(babel)             Reported on input line 92.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Info: Redefining \. on input line 90.
+LaTeX Info: Redefining \% on input line 90.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -825,59 +829,29 @@ e
 ))
 Couldn't patch \ttl@straight@ii
 Couldn't patch \ttl@straight@ii
-Package hyperref Info: Link coloring OFF on input line 92.
+Package hyperref Info: Link coloring OFF on input line 90.
+(./document.out) (./document.out)
 \@outlinefile=\write4
 \openout4 = `document.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 98.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
+
 
 (/app/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 98.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
 
 
 (/app/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 98
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 96
 .
 
 (/app/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-
-LaTeX Warning: File `logo-uta.png' not found on input line 140.
-
-
-! Package pdftex.def Error: File `logo-uta.png' not found: using draft setting.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.140 	
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `logo-fisei.png' not found on input line 140.
-
-
-! Package pdftex.def Error: File `logo-fisei.png' not found: using draft settin
-g.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.140 	
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 
 Package fancyhdr Warning: \headheight is too small (71.13188pt): 
 (fancyhdr)                Make it at least 74.06291pt, for example:
@@ -889,215 +863,22 @@ Package fancyhdr Warning: \headheight is too small (71.13188pt):
 mf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 
 ]
-
-LaTeX Warning: File `logo-uta.png' not found on input line 180.
-
-
-! Package pdftex.def Error: File `logo-uta.png' not found: using draft setting.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.180 	\newpage
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `logo-fisei.png' not found on input line 180.
-
-
-! Package pdftex.def Error: File `logo-fisei.png' not found: using draft settin
-g.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.180 	\newpage
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package fancyhdr Warning: \headheight is too small (71.13188pt): 
-(fancyhdr)                Make it at least 74.06291pt, for example:
-(fancyhdr)                \setlength{\headheight}{74.06291pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.93103pt}.
-
-[2]
-
-LaTeX Warning: File `logo-uta.png' not found on input line 245.
-
-
-! Package pdftex.def Error: File `logo-uta.png' not found: using draft setting.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.245 	
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `logo-fisei.png' not found on input line 245.
-
-
-! Package pdftex.def Error: File `logo-fisei.png' not found: using draft settin
-g.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.245 	
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package fancyhdr Warning: \headheight is too small (71.13188pt): 
-(fancyhdr)                Make it at least 74.06291pt, for example:
-(fancyhdr)                \setlength{\headheight}{74.06291pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.93103pt}.
-
-[3]
-
-LaTeX Warning: File `logo-uta.png' not found on input line 247.
-
-
-! Package pdftex.def Error: File `logo-uta.png' not found: using draft setting.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.247 	\newpage
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `logo-fisei.png' not found on input line 247.
-
-
-! Package pdftex.def Error: File `logo-fisei.png' not found: using draft settin
-g.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.247 	\newpage
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package fancyhdr Warning: \headheight is too small (71.13188pt): 
-(fancyhdr)                Make it at least 74.06291pt, for example:
-(fancyhdr)                \setlength{\headheight}{74.06291pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.93103pt}.
-
-[4]
-Overfull \hbox (28.43533pt too wide) in paragraph at lines 292--294
+Overfull \hbox (28.43533pt too wide) in paragraph at lines 152--154
 \T1/cmr/m/n/12 �xo-do, 2024. [En l�-nea]. Dis-po-ni-ble en: []$\T1/cmtt/m/n/12 
 https : / / 0x102qb9l-[]y-[]https-[]elibro-[]net .
  []
 
 
-LaTeX Warning: File `logo-uta.png' not found on input line 294.
-
-
-! Package pdftex.def Error: File `logo-uta.png' not found: using draft setting.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.294 		\item L
-               . García Barco y L. M. Montoya Conde, \textit{Estadística d...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `logo-fisei.png' not found on input line 294.
-
-
-! Package pdftex.def Error: File `logo-fisei.png' not found: using draft settin
-g.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.294 		\item L
-               . García Barco y L. M. Montoya Conde, \textit{Estadística d...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Package fancyhdr Warning: \headheight is too small (71.13188pt): 
-(fancyhdr)                Make it at least 74.06291pt, for example:
-(fancyhdr)                \setlength{\headheight}{74.06291pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.93103pt}.
-
-[5]
-Overfull \hbox (23.45888pt too wide) in paragraph at lines 294--296
+Overfull \hbox (23.45888pt too wide) in paragraph at lines 154--156
 \T1/cmtt/m/n/12 0x102qb9l-[]y-[]https-[]elibro-[]net . itmsp . museknowledge . 
 com / es / ereader / uta /
  []
 
 
-Overfull \hbox (0.58505pt too wide) in paragraph at lines 296--298
+Overfull \hbox (0.58505pt too wide) in paragraph at lines 156--158
 \T1/cmr/m/n/12 ni-ble en: []$\T1/cmtt/m/n/12 https : / / 0x102qb9l-[]y-[]https-
 []elibro-[]net . itmsp . museknowledge .
  []
-
-
-LaTeX Warning: File `logo-uta.png' not found on input line 308.
-
-
-! Package pdftex.def Error: File `logo-uta.png' not found: using draft setting.
-
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.308 \end{document}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `logo-fisei.png' not found on input line 308.
-
-
-! Package pdftex.def Error: File `logo-fisei.png' not found: using draft settin
-g.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.308 \end{document}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 Package fancyhdr Warning: \headheight is too small (71.13188pt): 
@@ -1106,7 +887,7 @@ Package fancyhdr Warning: \headheight is too small (71.13188pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.93103pt}.
 
-[6] (./document.aux
+[2] (./document.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1121,33 +902,30 @@ Package rerunfilecheck Warning: File `document.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `document.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A63B76444983546093B11B65840CD514;2314.
+(rerunfilecheck)             Before: BF5FA6E353CAA24F6B602D31DA95B1E7;873
+(rerunfilecheck)             After:  CCF0B1A90802272105418FEBA87F508F;1074.
  ) 
 Here is how much of TeX's memory you used:
- 27097 strings out of 467525
- 519275 string characters out of 5420560
- 965537 words of memory out of 5000000
- 55551 multiletter control sequences out of 15000+600000
+ 27032 strings out of 467525
+ 517801 string characters out of 5420560
+ 967491 words of memory out of 5000000
+ 55494 multiletter control sequences out of 15000+600000
  643378 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,15n,108p,1137b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></app/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></app/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></app/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols
-/msam10.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb><
-/app/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></app/texlive/
-texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></app/texlive/texmf-dist/fo
-nts/type1/public/cm-super/sfbx1440.pfb></app/texlive/texmf-dist/fonts/type1/pub
-lic/cm-super/sfrm1200.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/
-sfti1200.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-
-Output written on document.pdf (6 pages, 207915 bytes).
+ 98i,12n,108p,1137b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></app/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></app/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></app/texlive/texmf-dist/fonts/type
+1/public/cm-super/sfbx0900.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-s
+uper/sfbx1095.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200
+.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></app/te
+xlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></app/texlive/texmf-d
+ist/fonts/type1/public/cm-super/sfti1200.pfb></app/texlive/texmf-dist/fonts/typ
+e1/public/cm-super/sftt1200.pfb>
+Output written on document.pdf (2 pages, 178160 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
